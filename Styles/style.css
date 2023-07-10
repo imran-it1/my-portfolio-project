@@ -142,22 +142,24 @@ main {
     margin-bottom: 500px;
 }
 
+.tech_section {
+    margin-bottom: 90px;
+}
 
-.tech_title {
+.section_title {
     text-align: center;
     color: #CCC;
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: 10px;
 }
 
-.tech_description {
+.section_description {
     text-align: center;
     color: #A7A7A7;
     font-size: 26px;
     font-weight: normal;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .technology {
@@ -175,4 +177,75 @@ main {
 
 .first_row {
     margin-bottom: 60px;
+}
+
+/* Projects Style */
+
+.projects_card {
+    width: 370px;
+    height: 525px;
+    border-radius: 15px;
+    background: #363636;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.20);
+    color: #CCC;
+}
+
+.project_image {
+    border-radius: 15px 15px 0 0;
+    height: 260px;
+    width: 100%;
+}
+
+.card_text_part {
+    padding: 8px 30px;
+    text-align: left;
+}
+
+.card_wraper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project_title {
+    color: #CCC;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.projects_description {
+    color: #CCC;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.project_stack {
+    color: #CCC;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.card_action {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.project_card_wraper {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
 }
