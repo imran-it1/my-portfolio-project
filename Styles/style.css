@@ -47,7 +47,13 @@ a {
 .logo_link {
     display: flex;
     align-items: center;
-    gap: 715px;
+    gap: 675px;
+}
+
+.logo_svg {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .logo_link>ul {
