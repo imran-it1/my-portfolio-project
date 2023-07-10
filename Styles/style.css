@@ -8,16 +8,14 @@ body {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     font-family: 'Poppins', sans-serif;
+    background-color: #191919;
 }
 
 /* Header section style */
 
-
-.header_section {
+header {
     height: 100vh;
 }
-
-
 
 /* Nav Style Start */
 
@@ -26,22 +24,22 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 180px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 9px 1px rgba(231, 231, 231, 0.38);
+    /* background-color: rgb(255, 255, 255); */
+    /* box-shadow: 1px 1px 9px 1px rgba(231, 231, 231, 0.38);
     -webkit-box-shadow: 1px 1px 9px 1px rgba(231, 231, 231, 0.38);
-    -moz-box-shadow: 1px 1px 9px 1px rgba(231, 231, 231, 0.38);
+    -moz-box-shadow: 1px 1px 9px 1px rgba(231, 231, 231, 0.38); */
 }
 
 .nav_container li,
 a {
     list-style: none;
     text-decoration: none;
-    color: #666;
+    color: #A7A7A7;
     font-weight: 500;
 }
 
 .nav_container li>a:hover {
-    color: rgb(174, 59, 190);
+    color: #27AE60;
 }
 
 .logo_link {
@@ -54,6 +52,7 @@ a {
     display: flex;
     align-items: center;
     gap: 12px;
+    color: white;
 }
 
 .logo_link>ul {
@@ -64,10 +63,75 @@ a {
 .nav_social_link {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .nav_social_icon {
     width: 30px;
     height: 30px;
+}
+
+/* Hero Section Style */
+
+.hero_wraper {
+    height: 95vh;
+    width: 100%;
+    background-image: url("../asset/svg/herobg2.svg"), linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.719));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.hero_section {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: #D9D9D9;
+}
+
+.text_primary {
+    font-size: 3rem;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #13B0F5, #E70FAA);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.btn {
+    background-color: #27AE60;
+    border: none;
+    padding: 16px 22px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #04ac4a;
+    cursor: pointer;
+}
+
+.hero_title {
+    margin-bottom: 15px;
+}
+
+.btn-more {
+    margin-left: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn-more:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
