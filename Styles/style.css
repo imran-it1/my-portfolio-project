@@ -74,7 +74,7 @@ a {
 /* Hero Section Style */
 
 .hero_wraper {
-    height: 100vh;
+    height: 65vh;
     width: 100%;
     /* background-image: url("../asset/svg/herobg2.svg"), linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.719));
     background-repeat: no-repeat;
@@ -115,7 +115,9 @@ a {
 }
 
 .btn:hover {
-    background-color: #04ac4a;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
     cursor: pointer;
 }
 
@@ -123,17 +125,39 @@ a {
     margin-bottom: 15px;
 }
 
-.btn-more {
+.btn.btn_more {
     margin-left: 12px;
     background-color: white;
     color: black;
     border: 1px solid black;
 }
 
-.btn_more:hover {
+.btn.btn_more:hover {
     background-color: black;
     color: white;
     border: 1px solid white;
+}
+
+/* About Style */
+
+.about_wraper {
+    max-width: 40%;
+    margin-left: 160px;
+    padding: 0px 25px;
+}
+
+.about_title {
+    color: #D9D9D9;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    margin-bottom: 05px;
+}
+
+.about_description {
+    color: #CCC;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* Main section Style */
