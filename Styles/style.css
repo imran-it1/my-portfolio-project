@@ -74,12 +74,12 @@ a {
 /* Hero Section Style */
 
 .hero_wraper {
-    height: 95vh;
+    height: 100vh;
     width: 100%;
-    background-image: url("../asset/svg/herobg2.svg"), linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.719));
+    /* background-image: url("../asset/svg/herobg2.svg"), linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.719));
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .hero_section {
@@ -130,8 +130,49 @@ a {
     border: 1px solid black;
 }
 
-.btn-more:hover {
+.btn_more:hover {
     background-color: black;
     color: white;
     border: 1px solid white;
+}
+
+/* Main section Style */
+
+main {
+    margin-bottom: 500px;
+}
+
+
+.tech_title {
+    text-align: center;
+    color: #CCC;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tech_description {
+    text-align: center;
+    color: #A7A7A7;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+
+.technology {
+    height: 70px;
+    width: 70px;
+}
+
+.first_row,
+.second_row {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    gap: 108px;
+}
+
+.first_row {
+    margin-bottom: 60px;
 }
